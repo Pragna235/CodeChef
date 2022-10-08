@@ -6,4 +6,4 @@ for i in range(int(input())):
     elif (a==1 and b==1 and c==1):
         print(0)
     else:
-        print(1)
+        print(1) 
