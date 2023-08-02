@@ -1,4 +1,6 @@
 # cook your dish here
-for i in range(int(input())):
+for t in range(int(input())):
     s=int(input())
-    print(-1*(s+1))
+    x=-1
+    y=s-x 
+    print(x*y)
