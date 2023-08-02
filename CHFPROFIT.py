@@ -1,7 +1,4 @@
 # cook your dish here
-for i in range(int(input())):
-    x,y,z=input().split()
-    x,y,z=int(x),int(y),int(z)
-    cp=x*y
-    sp=x*z
-    print(sp-cp)
+for t in range(int(input())):
+    x,y,z=map(int,input().split())
+    print((x*z)-(x*y))
