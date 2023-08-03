@@ -1,9 +1,7 @@
 # cook your dish here
-for i in range(int(input())):
-    a,b,c=map(int,input().split())
-    if(a==0 and b==0 and c==0):
-        print(0)
-    elif (a==1 and b==1 and c==1):
+for t in range(int(input())):
+    a=list(map(int,input().split()))
+    if(a.count(0)==3 or a.count(1)==3):
         print(0)
     else:
-        print(1) 
+        print(1)
